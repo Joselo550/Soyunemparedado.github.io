@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f8edea, #d8e2dc);
+    color: #4a4a4a;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #6d6875;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 30px 0 15px;
+    border-bottom: 2px solid #b5838d;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #b5838d;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #4a4a4a;
+}
+
+a {
+    color: #a8dadc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #457b9d;
+}
+
+section {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f1faee;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.conclusion {
+    background: #ffe5d9;
+    border: 2px solid #ffcad4;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    display: inline-block;
+    background: #457b9d;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #1d3557;
+    transform: scale(1.05);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e6ccb2;
+    color: #4a4a4a;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 4px solid #b5838d;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.highlight {
+    color: #b5838d;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background: #d8e2dc;
+    color: #6d6875;
+    font-size: 0.9rem;
+    border-top: 2px solid #ffe5d9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
